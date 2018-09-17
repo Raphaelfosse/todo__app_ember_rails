@@ -1,0 +1,1 @@
+{"modulePrefix":"todo-app","environment":"test","rootURL":"/","locationType":"none","EmberENV":{"FEATURES":{},"EXTEND_PROTOTYPES":{"Date":false}},"APP":{"LOG_ACTIVE_GENERATION":false,"LOG_VIEW_LOOKUPS":false,"rootElement":"#ember-testing","autoboot":false,"name":"todo-app","version":"0.0.0+b8dee86a"},"emberData":{"enableRecordDataRFCBuild":false},"exportApplicationGlobal":true}

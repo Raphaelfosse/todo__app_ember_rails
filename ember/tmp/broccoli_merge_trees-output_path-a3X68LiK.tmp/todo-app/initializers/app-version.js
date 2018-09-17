@@ -1,0 +1,1 @@
+/Users/raphdu93/Desktop/todo_app/ember/tmp/broccoli_persistent_filterbabel__babel_todo_app-output_path-71WrQgwv.tmp/todo-app/initializers/app-version.js

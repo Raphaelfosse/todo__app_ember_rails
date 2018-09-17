@@ -1,0 +1,1 @@
+/Users/raphdu93/Desktop/todo_app/ember/tmp/funnel-input_base_path-NB1SuN1y.tmp/vendor-prefix.js

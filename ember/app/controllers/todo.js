@@ -1,6 +1,4 @@
 import Controller from '@ember/controller';
-import Ember from '@ember'
-import { isEmpty } from '@ember/utils';
 
 export default Controller.extend({
   actions: {
@@ -10,7 +8,7 @@ export default Controller.extend({
     acceptChanges: function() {
       this.set('isEditing', false);
 
-      if (Ember.isEmpty(this.get('model.title'))) {
+      if (this.get('model.title')) {
         this.send('removeTodo');
       } else {
         this.get('model').save();

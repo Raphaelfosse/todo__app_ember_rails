@@ -1,4 +1,5 @@
 import Ember from 'ember';
+import { computed } from '@ember/object';
 
 export default Ember.ArrayController.extend({
   actions: {
@@ -20,12 +21,12 @@ export default Ember.ArrayController.extend({
       todo.save();
     }
   },
-  remaining: function() {
+  remaining: computed('@each.isCompleted', function() {
     return this.filterBy('isCompleted', false).get('length');
-  }.property('@each.isCompleted'),
+  }),
 
-  inflection: function() {
+  inflection: computed('remaining', function() {
     var remaining = this.get('remaining');
     return remaining === 1 ? 'todo' : 'todos';
-  }.property('remaining')
+  })
 });

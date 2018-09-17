@@ -1,0 +1,1 @@
+{"modulePrefix":"todo-app","environment":"development","rootURL":"/","locationType":"auto","EmberENV":{"FEATURES":{},"EXTEND_PROTOTYPES":{"Date":false}},"APP":{"name":"todo-app","version":"0.0.0+b8dee86a"},"emberData":{"enableRecordDataRFCBuild":false},"exportApplicationGlobal":true}
